@@ -1,4 +1,4 @@
-INDEX VERSION 1.134+C:\Users\SeanJ\source\java\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.134+C:\Users\SeanJ\Source\Java\.metadata\.plugins\org.eclipse.jdt.core
 2345224350.index
 3656757859.index
 1051827256.index

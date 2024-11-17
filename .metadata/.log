@@ -227,3 +227,16 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY ch.qos.logback.classic 1 0 2024-11-12 21:42:55.217
 !MESSAGE Logback config file: C:\Users\SeanJ\source\java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+!SESSION 2024-11-13 21:42:19.176 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=23.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 21:42:20.604
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-11-13 21:42:21.346
+!MESSAGE Logback config file: C:\Users\SeanJ\Source\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
