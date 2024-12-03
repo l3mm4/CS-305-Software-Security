@@ -132,3 +132,739 @@
 2024-11-19 20:51:54,576 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2024-11-19 20:51:54,578 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-11-19 20:51:54,578 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\ssl-server_student\src\test\resources
+2024-11-26 21:30:10,897 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-26 21:30:11,165 [Worker-13: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:30:12,202 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\ssl-server_student\pom.xml.
+2024-11-26 21:30:13,153 [Worker-6: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:30:27,428 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:30:27,430 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SslServerApplication references closed project ssl-server_student
+org.eclipse.core.runtime.CoreException: Launch configuration SslServerApplication references closed project ssl-server_student
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:203)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 21:30:27,433 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SslServerApplication references closed project ssl-server_student
+org.eclipse.core.runtime.CoreException: Launch configuration SslServerApplication references closed project ssl-server_student
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:203)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 21:30:27,435 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SslServerApplication references closed project ssl-server_student
+org.eclipse.core.runtime.CoreException: Launch configuration SslServerApplication references closed project ssl-server_student
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1744)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:203)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:1960)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-11-26 21:31:04,365 [Worker-137: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:31:04,472 [Worker-137: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\module5_skel_student\pom.xml.
+2024-11-26 21:31:04,914 [Worker-137: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:31:04,970 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 21:31:04,972 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-26 21:31:04,976 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-26 21:31:04,982 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 21:31:04,982 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 21:31:06,187 [Worker-155: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 21:31:06,189 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 21:31:06,189 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-26 21:31:06,190 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-26 21:31:06,192 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 21:31:06,193 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 21:57:30,108 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 21:57:30,109 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 21:57:30,109 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 21:57:30,110 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 21:57:30,111 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 21:57:30,112 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 21:57:30,113 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 21:57:30,114 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 21:57:30,115 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 21:57:30,115 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 21:57:30,115 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 21:57:30,115 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 21:57:30,116 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 21:57:30,117 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 21:57:30,117 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 21:57:30,117 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 21:57:30,117 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 21:57:30,117 [Worker-168: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 21:57:30,118 [Worker-168: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\CS 305 Module Five Checksum Verification Assignment Code":
+2024-11-26 21:57:30,120 [Worker-168: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:08:55,971 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 22:08:55,972 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 22:08:55,973 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 22:08:55,974 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 22:08:55,975 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 22:08:55,976 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 22:08:55,977 [Worker-197: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 22:08:55,978 [Worker-197: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\CS 305 Module Five Checksum Verification Assignment Code":
+2024-11-26 22:08:55,978 [Worker-197: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:09:08,583 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 22:09:08,583 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 22:09:08,584 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 22:09:08,585 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 22:09:08,586 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 22:09:08,587 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 22:09:08,588 [Worker-198: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 22:09:08,589 [Worker-198: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\CS 305 Module Five Checksum Verification Assignment Code":
+2024-11-26 22:09:08,589 [Worker-198: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:09:29,924 [Worker-197: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:13:29,586 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-26 22:16:16,532 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-26 22:20:30,051 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-26 22:22:13,277 [Worker-220: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:22:14,388 [Worker-220: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\module5_skel_student\pom.xml.
+2024-11-26 22:22:15,074 [Worker-220: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:22:15,153 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:22:15,160 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-26 22:22:15,187 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-26 22:22:15,193 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:22:15,193 [Worker-220: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 22:22:16,365 [Worker-133: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:22:16,370 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:22:16,370 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-26 22:22:16,371 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-26 22:22:16,374 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:22:16,374 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 22:24:34,349 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 22:24:34,350 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 22:24:34,350 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 22:24:34,350 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 22:24:34,350 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 22:24:34,350 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 22:24:34,351 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 22:24:34,352 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 22:24:34,353 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 22:24:34,354 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 22:24:34,354 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 22:24:34,354 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 22:24:34,354 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 22:24:34,355 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 22:24:34,357 [Worker-24: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-26 22:24:34,358 [Worker-24: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:24:34,448 [Worker-222: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:24:34,569 [Worker-222: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\module5_skel_student\pom.xml.
+2024-11-26 22:24:34,787 [Worker-222: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:24:34,929 [Worker-222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:24:34,936 [Worker-222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-11-26 22:24:34,936 [Worker-222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-11-26 22:24:34,939 [Worker-222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:24:34,939 [Worker-222: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 22:25:16,764 [Worker-222: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-26 22:25:16,773 [Worker-222: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:25:16,843 [Worker-222: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\module5_skel_student\pom.xml.
+2024-11-26 22:25:17,018 [Worker-222: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:25:17,102 [Worker-222: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /module5_skel_student/src/main/java
+2024-11-26 22:25:17,103 [Worker-222: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /module5_skel_student/src/main/resources
+2024-11-26 22:25:17,104 [Worker-222: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /module5_skel_student/src/main/resources
+2024-11-26 22:25:17,105 [Worker-222: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /module5_skel_student/src/test/java
+2024-11-26 22:25:17,106 [Worker-222: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /module5_skel_student/src/test/resources
+2024-11-26 22:25:17,226 [Worker-222: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-11-26 22:25:17,403 [Worker-134: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:25:17,478 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:25:17,478 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-26 22:25:17,483 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-26 22:25:17,487 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:25:17,487 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 22:25:25,156 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 22:25:25,157 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 22:25:25,158 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 22:25:25,159 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 22:25:25,160 [Worker-232: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 22:25:25,161 [Worker-232: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-26 22:25:25,161 [Worker-232: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-26 22:32:47,148 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-26 22:32:47,149 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-26 22:32:47,150 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-26 22:32:47,151 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-26 22:32:47,152 [Worker-24: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-26 22:32:47,153 [Worker-24: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-26 22:32:47,153 [Worker-24: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-26 22:32:47,246 [Worker-133: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:32:47,315 [Worker-133: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.snhu:ssl-server:0.0.1-SNAPSHOT @ C:\Users\SeanJ\Source\Java\module5_skel_student\pom.xml.
+2024-11-26 22:32:47,513 [Worker-133: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-26 22:32:47,621 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:32:47,623 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-11-26 22:32:47,624 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-11-26 22:32:47,626 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-26 22:32:47,626 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 12:24:26,140 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-27 12:24:26,141 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-27 12:24:26,142 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-27 12:24:26,143 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-27 12:24:26,144 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-27 12:24:26,145 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-27 12:24:26,146 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-27 12:24:26,146 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-27 12:24:26,146 [Worker-230: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-27 12:24:26,147 [Worker-230: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-27 12:24:26,147 [Worker-230: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-27 12:32:48,330 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-27 12:32:48,331 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-27 12:32:48,332 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-27 12:32:48,333 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-27 12:32:48,334 [Worker-236: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-27 12:32:48,335 [Worker-236: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-27 12:32:48,335 [Worker-236: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-27 12:50:34,946 [Worker-243: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 12:50:34,950 [Worker-243: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:50:34,951 [Worker-243: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 12:50:34,956 [Worker-243: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 12:50:34,958 [Worker-243: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:50:34,958 [Worker-243: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 12:52:12,687 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [297])
+2024-11-27 12:52:12,687 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-27 12:52:12,688 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-27 12:52:12,689 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-27 12:52:12,690 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [10])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [519])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2024-11-27 12:52:12,691 [Worker-243: Launching New_configuration] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\SeanJ\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-27 12:52:12,692 [Worker-243: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\SeanJ\Source\Java\module5_skel_student":
+2024-11-27 12:52:12,692 [Worker-243: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-27 12:54:31,438 [Worker-239: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 12:54:31,441 [Worker-239: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:54:31,441 [Worker-239: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 12:54:31,442 [Worker-239: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 12:54:31,443 [Worker-239: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:54:31,443 [Worker-239: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 12:58:03,799 [Worker-241: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 12:58:03,801 [Worker-241: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:58:03,802 [Worker-241: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 12:58:03,803 [Worker-241: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 12:58:03,804 [Worker-241: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:58:03,804 [Worker-241: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 12:58:40,438 [Worker-245: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 12:58:40,440 [Worker-245: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:58:40,440 [Worker-245: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 12:58:40,441 [Worker-245: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 12:58:40,442 [Worker-245: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 12:58:40,442 [Worker-245: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 21:07:18,486 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-27 21:11:21,780 [Worker-85: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 21:11:21,994 [Worker-85: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:11:21,995 [Worker-85: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 21:11:22,001 [Worker-85: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 21:11:22,007 [Worker-85: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:11:22,007 [Worker-85: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 21:29:28,836 [Worker-189: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 21:29:28,842 [Worker-189: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:29:28,844 [Worker-189: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 21:29:28,845 [Worker-189: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 21:29:28,847 [Worker-189: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:29:28,847 [Worker-189: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 21:30:27,409 [Worker-188: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 21:30:27,415 [Worker-188: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:30:27,416 [Worker-188: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 21:30:27,417 [Worker-188: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 21:30:27,419 [Worker-188: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:30:27,419 [Worker-188: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources
+2024-11-27 21:46:31,937 [Worker-133: Launching ServerApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-11-27 21:46:31,940 [Worker-133: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:46:31,940 [Worker-133: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-11-27 21:46:31,941 [Worker-133: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-11-27 21:46:31,943 [Worker-133: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-11-27 21:46:31,943 [Worker-133: Launching ServerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SeanJ\Source\Java\module5_skel_student\src\test\resources

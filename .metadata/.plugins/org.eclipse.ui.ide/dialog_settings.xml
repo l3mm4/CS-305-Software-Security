@@ -7,10 +7,14 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\SeanJ\Source\Java\Module 5"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 4"/>
 			<item value="C:\Users\SeanJ\source\java\rest-service"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\SeanJ\Source\Java\Module 5\CS 305 Module Five Coding Assignment Checksum Verification Code Base_1.zip"/>
+			<item value="C:\Users\SeanJ\Source\Java\Module 5\CS 305 Module Five Coding Assignment Checksum Verification Code Base.zip"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 4\CS 305 Project Two Code Base.zip"/>
 			<item value=""/>
 		</list>
