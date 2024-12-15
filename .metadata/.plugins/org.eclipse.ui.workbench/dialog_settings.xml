@@ -28,12 +28,14 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\SeanJ\Source\Java\Module 7\CS 305 Project Two - Jette.zip"/>
+			<item value="C:\Users\SeanJ\Source\Java\Module 6\Refracted CS 305 Module Six Code Base - Jette.zip"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 5\module5_skel_student_refactored_jette.zip"/>
 		</list>
 		<section name="ZipFileExportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="385"/>
 			<item key="DIALOG_Y_ORIGIN" value="362"/>
-			<item key="DIALOG_WIDTH" value="845"/>
+			<item key="DIALOG_WIDTH" value="623"/>
 			<item key="DIALOG_HEIGHT" value="622"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>

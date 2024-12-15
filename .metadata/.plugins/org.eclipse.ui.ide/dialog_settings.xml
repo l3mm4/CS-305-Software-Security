@@ -13,6 +13,8 @@
 			<item value="C:\Users\SeanJ\source\java\rest-service"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\SeanJ\Source\Java\Module 7\CS 305 Project Two Code Base.zip"/>
+			<item value="C:\Users\SeanJ\Source\Java\Module 6\CS 305 Module Six Code Base.zip"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 5\CS 305 Module Five Coding Assignment Checksum Verification Code Base_1.zip"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 5\CS 305 Module Five Coding Assignment Checksum Verification Code Base.zip"/>
 			<item value="C:\Users\SeanJ\Source\Java\Module 4\CS 305 Project Two Code Base.zip"/>
@@ -25,5 +27,11 @@
 			<item key="DIALOG_HEIGHT" value="710"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
