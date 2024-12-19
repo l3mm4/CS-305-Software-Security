@@ -25,8 +25,8 @@
 
   After learning how to utilize the Maven dependency check plugin within Eclipse, I think it has become an invaluable tool for identifying vulnerabilities or CVEs within third-party libraries. Furthermore, the practice of secure coding practices like input validation/sanitation, exception handling, and adhering to OWASP guidelines were essential. Lastly, the documenting of vulnerabilities, both within the dependency check and with manual code review, was key for prioritizing the identified threats based on their risk level and will serve as a cornerstone on future assignments or related tasks.
 
-**•	Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
-**
+**•	Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?**
+
   This completed assignment will demonstrate to future employers my ability to work within the DevSecOps field by performing security-related programming tasks, such as conducting a comprehensive vulnerability assessment, identifying security issues, and providing actionable solutions to customers. Additionally, I can showcase my proficiency with tools like Maven, my understanding of secure coding practices, and my ability to document findings effectively.
   While not directly demonstrated in this project, I also have experience using tools like Burp Suite, which are valuable for identifying vulnerabilities in web applications and ensuring that RESTful applications meet secure coding standards. Ultimately, this project reflects some of the technical software security skills I have developed at SNHU. While not exhaustive, it effectively demonstrates my ability to analyze, prioritize, and communicate vulnerabilities clearly and confidently.
 
